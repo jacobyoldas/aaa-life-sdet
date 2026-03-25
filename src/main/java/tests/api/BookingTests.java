@@ -7,10 +7,8 @@ import org.json.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import tests.utils.TestDataReader;
-
 import java.util.HashMap;
 import java.util.Map;
-
 import static io.restassured.RestAssured.*;
 
 public class BookingTests extends BaseAPI {

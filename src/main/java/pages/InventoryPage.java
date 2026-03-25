@@ -3,7 +3,6 @@ package pages;
 import base.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-
 import java.util.List;
 import java.util.stream.Collectors;
 

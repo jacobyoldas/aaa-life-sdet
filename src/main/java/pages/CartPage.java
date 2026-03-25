@@ -8,6 +8,10 @@ public class CartPage {
     static By cartItemName = By.className("inventory_item_name");
 
     public static String getCartItemName() {
-        return BaseTest.driver.findElement(cartItemName).getText();
+        try {
+            return BaseTest.driver.findElement(cartItemName).getText();
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to get cart item text", e);
+        }
     }
 }

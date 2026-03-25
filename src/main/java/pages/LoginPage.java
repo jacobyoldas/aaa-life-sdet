@@ -5,7 +5,6 @@ import org.openqa.selenium.By;
 
 public class LoginPage {
 
-
     static By username = By.id("user-name");
     static By password = By.id("password");
     static By loginBtn = By.id("login-button");
